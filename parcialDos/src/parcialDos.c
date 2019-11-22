@@ -28,8 +28,8 @@ int main(void)
 	    printf(	 "Menu:\n\n"
 				 "1. Cargar archivo\n"
 				 "2. Imprimir lista\n"
-				 "3. Filtrar menores de 45 dias\n"
-				 "4. Filtrar machos\n"
+				 "3. Filtrar menores de 45 dias(generar archivo)\n"
+				 "4. Filtrar machos(generar archivo)\n"
 				 "5. Generar listado de callejeros\n"
 				 "6. Salir\n");
 
