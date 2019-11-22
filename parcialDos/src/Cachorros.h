@@ -19,8 +19,8 @@ typedef struct
     char nombre[50];
     int dias;
     char raza[50];
-    char reservado[2];
-    char genero[1];
+    char reservado[3];
+    char genero[2];
 }Cachorro;
 
 
