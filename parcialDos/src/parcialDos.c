@@ -14,16 +14,17 @@
 #include "Cachorros.h"
 #include "Parser.h"
 #include "utn.h"
-#include "controller.h"
+
 
 int main(void)
 {
 	int option;
 	int flag = 0;
 
-	LinkedList* pAarrayPuppyList = ll_newLinkedList();
+	LinkedList* pAarrayPuppyList;
+	pAarrayPuppyList = ll_newLinkedList();
 	do{
-	    system("clear");
+
 	    printf(	 "Menu:\n\n"
 				 "1. Cargar archivo\n"
 				 "2. Imprimir lista\n"
@@ -37,9 +38,10 @@ int main(void)
 	        switch(option)
 	        {
 	            case 1:
+
 	                if(flag == 0)
 	                {
-	                    if(controller_loadFromText("cachorros.csv",pAarrayPuppyList)==0)
+	                    if(parser_parserCachorros("cachorros.csv",pAarrayPuppyList)==1)
 	                    {
 	                        printf("Lista cargada con exito\n");
 	                        flag = 1;

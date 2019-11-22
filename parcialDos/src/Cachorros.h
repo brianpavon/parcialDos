@@ -54,7 +54,8 @@ int cachorro_getGenero(Cachorro* this,char* genero);
 
 void cachorro_imprimirCachorro(Cachorro* this);
 int cachorro_filtrarMenoresDias(void* pElement);
-
+int cachorro_filtrarCallejeros(void* pElement);
+int cachorro_filtrarMachos(void* pElement);
 //int cachorro_ordenarPorNombre(void* cachorroUno, void* cachorroDos);
 //int cachorro_ordenarPorHoras(void* cachorroUno, void* cachorroDos);
 //int cachorro_ordenarPorSueldo(void* cachorroUno, void* cachorroDos);

@@ -88,8 +88,8 @@ void cachorro_imprimirCachorro(Cachorro* this)
 	char nombre[50];
 	int dias;
 	char raza[50];
-	char reservado[2];
-	char genero[1];
+	char reservado[6];
+	char genero[2];
 
     cachorro_getId(this,&id);
     cachorro_getNombre(this,nombre);
@@ -310,6 +310,7 @@ int cachorro_getRaza(Cachorro* this,char* raza)
 	if(this != NULL && raza != NULL)
 	{
 		strcpy(raza,this->raza);
+
 		retorno = 0;
 	}
 
@@ -465,10 +466,10 @@ int cachorro_imprimirTodosLosCachorros(LinkedList* pAarrayPuppyList)
         printf("%5s %10s %10s %10s %10s %10s\n","ID","NOMBRE","DIAS","RAZA","RESERVADO","GENERO");
         for(i=0 ; i<ll_len(pAarrayPuppyList); i++)
         {
-            if(i%150 == 0 && i != 0)
+            /*if(i%150 == 0 && i != 0)
             {
                 system("pause");
-            }
+            }*/
           this = ll_get(pAarrayPuppyList,i);
           cachorro_imprimirCachorro(this);
           retorno = 0;
@@ -481,8 +482,6 @@ int cachorro_imprimirTodosLosCachorros(LinkedList* pAarrayPuppyList)
 int cachorro_filtrarMenoresDias(void* pElement)
 {
 	int retorno = -1;
-	int i;
-
 
 	Cachorro* auxCachorro;
 	auxCachorro = (Cachorro*)pElement;
@@ -501,8 +500,46 @@ int cachorro_filtrarMenoresDias(void* pElement)
 }
 
 
+int cachorro_filtrarMachos(void* pElement)
+{
+	int retorno = -1;
+
+	Cachorro* auxCachorro;
+	auxCachorro = (Cachorro*)pElement;
+
+	if(auxCachorro->genero == 'M')
+	{
+		retorno = 1;
+	}
+	else
+	{
+		retorno = 0;
+	}
 
 
+	return retorno;
+}
+
+
+int cachorro_filtrarCallejeros(void* pElement)
+{
+	int retorno = -1;
+
+	Cachorro* auxCachorro;
+	auxCachorro = (Cachorro*)pElement;
+
+	if(auxCachorro->raza == "Callejero")
+	{
+		retorno = 1;
+	}
+	else
+	{
+		retorno = 0;
+	}
+
+
+	return retorno;
+}
 
 
 
