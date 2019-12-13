@@ -1,0 +1,171 @@
+# depslib dependency file v1.0
+1576187884 source:c:\users\alumno\desktop\recuperatoriosegundoparcial\recuperatoriosegundoparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1576187884 c:\users\alumno\desktop\recuperatoriosegundoparcial\recuperatoriosegundoparcial\linkedlist.h
+
+1576187885 source:c:\users\alumno\desktop\recuperatoriosegundoparcial\recuperatoriosegundoparcial\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1576190814 source:c:\users\alumno\desktop\recuperatoriosegundoparcial\recuperatoriosegundoparcial\computer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Computer.h"
+	"utn.h"
+	"LinkedList.h"
+	"parser.h"
+
+1576190748 c:\users\alumno\desktop\recuperatoriosegundoparcial\recuperatoriosegundoparcial\computer.h
+	"utn.h"
+	"LinkedList.h"
+
+1576187885 c:\users\alumno\desktop\recuperatoriosegundoparcial\recuperatoriosegundoparcial\utn.h
+
+1576190857 c:\users\alumno\desktop\recuperatoriosegundoparcial\recuperatoriosegundoparcial\parser.h
+	"LinkedList.h"
+
+1576191657 source:z:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\computer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Computer.h"
+	"utn.h"
+	"LinkedList.h"
+	"parser.h"
+
+1576190748 z:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\computer.h
+	"utn.h"
+	"LinkedList.h"
+
+1576187885 z:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\utn.h
+
+1576187884 z:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\linkedlist.h
+
+1576191567 z:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\parser.h
+	"LinkedList.h"
+
+1576187884 source:z:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1576191707 source:z:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"parser.h"
+	"LinkedList.h"
+	"utn.h"
+	"Computer.h"
+
+1576187885 source:z:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1576191552 source:z:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Computer.h"
+
+1576193457 source:d:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\computer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Computer.h"
+	"utn.h"
+	"LinkedList.h"
+	"parser.h"
+
+1576193420 d:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\computer.h
+	"utn.h"
+	"LinkedList.h"
+
+1576187885 d:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\utn.h
+
+1576187884 d:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\linkedlist.h
+
+1576191950 d:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\parser.h
+	"LinkedList.h"
+
+1576187884 source:d:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1576193787 source:d:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"parser.h"
+	"LinkedList.h"
+	"utn.h"
+	"Computer.h"
+
+1576191950 source:d:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Computer.h"
+
+1576187885 source:d:\brian\recuperatoriosegundoparcial\recuperatoriosegundoparcial\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
+1576193457 source:c:\users\alumno\desktop\recuperatoriosegundoparcial\computer.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Computer.h"
+	"utn.h"
+	"LinkedList.h"
+	"parser.h"
+
+1576193420 c:\users\alumno\desktop\recuperatoriosegundoparcial\computer.h
+	"utn.h"
+	"LinkedList.h"
+
+1576187885 c:\users\alumno\desktop\recuperatoriosegundoparcial\utn.h
+
+1576187884 c:\users\alumno\desktop\recuperatoriosegundoparcial\linkedlist.h
+
+1576191950 c:\users\alumno\desktop\recuperatoriosegundoparcial\parser.h
+	"LinkedList.h"
+
+1576187884 source:c:\users\alumno\desktop\recuperatoriosegundoparcial\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1576193787 source:c:\users\alumno\desktop\recuperatoriosegundoparcial\main.c
+	<stdio.h>
+	<stdlib.h>
+	"parser.h"
+	"LinkedList.h"
+	"utn.h"
+	"Computer.h"
+
+1576191950 source:c:\users\alumno\desktop\recuperatoriosegundoparcial\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Computer.h"
+
+1576187885 source:c:\users\alumno\desktop\recuperatoriosegundoparcial\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
